@@ -31,24 +31,24 @@ const CONFIG = {
     external: {
       header: 'My Projects',
       // To hide the `External Projects` section, keep it empty.
-      projects: [
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
-      ],
+      // projects: [
+      //   {
+      //     title: 'Project Name',
+      //     description:
+      //       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+      //     imageUrl:
+      //       'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+      //     link: 'https://example.com',
+      //   },
+      //   {
+      //     title: 'Project Name',
+      //     description:
+      //       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+      //     imageUrl:
+      //       'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+      //     link: 'https://example.com',
+      //   },
+      // ],
     },
   },
   seo: {
@@ -56,47 +56,66 @@ const CONFIG = {
     description: '',
     imageURL: '',
   },
-  social: {
-    linkedin: 'ariful-alam',
-    x: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
-    researchGate: '',
-    facebook: '',
-    instagram: '',
-    reddit: '',
-    threads: '',
-    youtube: '', // example: 'pewdiepie'
-    udemy: '',
-    dribbble: '',
-    behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    stackoverflow: '', // example: '1/jeff-atwood'
-    skype: '',
-    telegram: '',
-    website: 'https://www.arifszn.com',
-    phone: '',
-    email: 'arifulalamszn@gmail.com',
-  },
-  resume: {
-    fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
-  },
+  // social: {
+  //   linkedin: 'ariful-alam',
+  //   x: 'arif_szn',
+  //   mastodon: 'arifszn@mastodon.social',
+  //   researchGate: '',
+  //   facebook: '',
+  //   instagram: '',
+  //   reddit: '',
+  //   threads: '',
+  //   youtube: '', // example: 'pewdiepie'
+  //   udemy: '',
+  //   dribbble: '',
+  //   behance: '',
+  //   medium: 'arifszn',
+  //   dev: 'arifszn',
+  //   stackoverflow: '', // example: '1/jeff-atwood'
+  //   skype: '',
+  //   telegram: '',
+  //   website: 'https://www.arifszn.com',
+  //   phone: '',
+  //   email: 'arifulalamszn@gmail.com',
+  // },
+  // resume: {
+  //   fileUrl:
+  //     'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+  // },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
+    'Python', 
+    'SQL', 
+    'SPARQL', 
+    'Java', 
+    'C/C++', 
+    'C#', 
+    'JavaScript', 
+    'HTML',
+    'XML', 
+    'JSON'
     'React.js',
     'Node.js',
-    'Nest.js',
     'MySQL',
     'PostgreSQL',
     'Git',
     'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'Kubernetes', 
+    'AWS(s3, emr, ecs, glue, Athena, airflow, terraform, Spark, zeppelin)', 
+    'MongoDB',
+    'Power BI', 
+    'Protégé', 
+    'Vantage6', 
+    'FAIR Data Station', 
+    'Triplestore (GraphDB, Blazegraph)',
+    'RDF', 
+    'OWL', 
+    'SHACL', 
+    'REST API', 
+    'DCAT', 
+    'ISA', 
+    'Phenopacket', 
+    'FHIR', 
+    'FAIR Genomes',
   ],
   experiences: [
     {
