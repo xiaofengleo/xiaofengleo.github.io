@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['xiaofengleo/Youtube_transcript_enhance', 'Health-RI/excel2rdf'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['xiaofengleo/Youtube_transcript_enhance', 'Health-RI/excel2rdf', 'Health-RI/health-ri-metadata','Health-RI/metadata-shacl-validation', 'cmbi/FAIRDataPoint-client'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
